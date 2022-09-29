@@ -1,0 +1,17 @@
+.solid-logo{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    border: 10px solid #ffd700;
+
+    box-shadow: rgba(238, 255, 0, 0.738) 5px 5px, rgba(190, 217, 16, 0.645) 10px 10px, rgba(221, 255, 0, 0.2) 15px 15px, rgba(233, 240, 46, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 35px 25px;
+
+    &:hover {
+        animation: rubberBand 1s;
+    }
+}
